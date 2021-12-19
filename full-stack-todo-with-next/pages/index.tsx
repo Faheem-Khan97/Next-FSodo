@@ -6,6 +6,8 @@ import MenuItem from '../components/MenuItem'
 import Link from 'next/link'
 import NavBar from '../components/NavBar'
 import Hero from '../components/Hero'
+import LandingBody from '../components/LandingBody'
+import LandingFooter from '../components/LandingFooter'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -18,7 +20,8 @@ const Home: NextPage = () => {
       <NavBar/>
       
       <Hero/>
-      
+      <LandingBody/>
+      <LandingFooter/>
     </div>
   )
 }

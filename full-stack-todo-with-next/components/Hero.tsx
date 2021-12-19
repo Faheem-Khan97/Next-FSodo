@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero:React.FC = () => {
     return (
-        <Flex py={"30px"} background={"linear-gradient(94deg, #11244f, #8913b0 )"} w="100%" >
+        <Flex py={"12"} background={"linear-gradient(94deg, #11244f, #8913b0 )"} w="100%" >
             <Container>
 
                 <Heading color={"whiteAlpha.800"}>

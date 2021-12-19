@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const NavBar:React.FC = () => {
     return (
-        <Flex justifyContent={'center'} alignItems={'center'} px={"3.5"} py={"2"}background={"linear-gradient(94deg, #e1beed, #d1e3d8 )"} >
+        <Flex justifyContent={'center'} alignItems={'center'} px={"3.5"} py={"2"} >
         <Text fontSize={"24px"} color={"blue.500"} flexGrow={1} >
           SuperApp
         </Text>
